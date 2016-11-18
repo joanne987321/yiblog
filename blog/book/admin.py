@@ -1,6 +1,5 @@
 from django.contrib import admin
 
-
 from article.models import Article, Comment ,Book
 
 class CommentModelAdmin(admin.ModelAdmin):
